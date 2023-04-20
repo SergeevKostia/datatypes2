@@ -7,7 +7,7 @@ public class Main {
         int refill = 2200;
         int present = refill / 100;
         int bonus;
-        if (refill > 1500) {
+        if (refill > 1000) {
             bonus = present;
         } else {
             bonus = 0;
