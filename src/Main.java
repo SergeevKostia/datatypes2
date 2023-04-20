@@ -4,17 +4,17 @@ public class Main {
     public static void main(String[] args) {
         int account = 100;
 
-        int x = 1400;
-        int present = x/100;
+        int refill = 2200;
+        int present = refill / 100;
         int bonus;
-        if (x>1500) {bonus=present;}
-        else {bonus=0;}
-        System.out.println("Бонус:" +bonus);
-        System.out.println("Итоговая сумма:" +(account+x+bonus));
-
+        if (refill > 1500) {
+            bonus = present;
+        } else {
+            bonus = 0;
+        }
+        System.out.println("Бонус:" + bonus);
+        System.out.println("Итоговая сумма:" + (account + refill + bonus));
     }
-
-
 }
 
 
